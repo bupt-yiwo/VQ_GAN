@@ -50,11 +50,11 @@ Original Left | Reconstruction Middle Left | Completion Middle Right | New Image
 
 # Train VQGAN:
 
-### Training First Stage
+## First Stage
 
 ```python train_vqgan.py```
 
-### Training Second Stage
+## Second Stage
 
 ```python train_transformer_vqgan.py```
 
