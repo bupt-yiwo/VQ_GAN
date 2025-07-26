@@ -29,21 +29,22 @@ This project is for **personal learning and experimentation**, containing implem
 ## First Stage (Reconstruction):
 
 ### 50 Epoch(Dome272's VQGAN):
-![image-1](Figs/1.png)
+![image-1](Figs/1.jpg)
 
 ### 46 Epoch(My VQGAN):
 ![image-2](Figs/2.png)
+![image-2](Figs/3.png)
 
 ## Second Stage (Generating new Images):
 
 Original Left | Reconstruction Middle Left | Completion Middle Right | New Image Right
 
-### 50 Epoch(Dome272's VQGAN):
+### 100 Epoch(Dome272's VQGAN):
 
-![image-1](Figs/3.png)
+![image-1](Figs/4.jpg)
 
-### 46 Epoch(My VQGAN):
-![image-2](Figs/4.png)
+### 20 Epoch(My VQGAN):
+![image-2](Figs/5.png)
 
 
 
