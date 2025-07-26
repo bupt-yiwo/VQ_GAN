@@ -20,13 +20,13 @@ This project is for **personal learning and experimentation**, containing implem
 - PyTorch (any version)
 - CUDA enabled computing device
 
+## Results
+
 📊 Below is a comparison between the performance of our model and that of the original repository. Although I used the exact same hyperparameters, my results are noticeably worse. I believe the primary reason is the quality of the dataset.
 
 **PS:** The dataset I downloaded is actually quite noisy—but I really just wanted an anime dataset, haha.
 
-
-
-## Results for First Stage (Reconstruction):
+## First Stage (Reconstruction):
 
 ### 50 Epoch(Dome272's VQGAN):
 ![image-1](Figs/1.png)
@@ -34,7 +34,7 @@ This project is for **personal learning and experimentation**, containing implem
 ### 46 Epoch(My VQGAN):
 ![image-2](Figs/2.png)
 
-## Results for Second Stage (Generating new Images):
+## Second Stage (Generating new Images):
 
 Original Left | Reconstruction Middle Left | Completion Middle Right | New Image Right
 
