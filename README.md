@@ -14,13 +14,13 @@ This project is for **personal learning and experimentation**, containing implem
 
 
 
-## Requirements
+# Requirements
 
 - Python (any version)
 - PyTorch (any version)
 - CUDA enabled computing device
 
-## Results
+# Results
 
 📊 Below is a comparison between the performance of our model and that of the original repository. Although I used the exact same hyperparameters, my results are noticeably worse. I believe the primary reason is the quality of the dataset.
 
@@ -48,7 +48,7 @@ Original Left | Reconstruction Middle Left | Completion Middle Right | New Image
 
 
 
-## Train VQGAN:
+# Train VQGAN:
 
 ### Training First Stage
 
@@ -61,7 +61,7 @@ Original Left | Reconstruction Middle Left | Completion Middle Right | New Image
 
 
 
-## Citation
+# Citation
 
 ```bibtex
 @misc{esser2021taming,
