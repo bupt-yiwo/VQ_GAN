@@ -13,6 +13,7 @@ This project is for **personal learning and experimentation**, containing implem
 
 
 
+
 ## Requirements
 
 - Python (any version)
@@ -22,6 +23,8 @@ This project is for **personal learning and experimentation**, containing implem
 📊 Below is a comparison between the performance of our model and that of the original repository. Although I used the exact same hyperparameters, my results are noticeably worse. I believe the primary reason is the quality of the dataset.
 
 **PS:** The dataset I downloaded is actually quite noisy—but I really just wanted an anime dataset, haha.
+
+
 
 ## Results for First Stage (Reconstruction):
 
@@ -42,6 +45,9 @@ Original Left | Reconstruction Middle Left | Completion Middle Right | New Image
 ### 46 Epoch(My VQGAN):
 ![image-2](Figs/4.png)
 
+
+
+
 ## Train VQGAN:
 
 ### Training First Stage
@@ -51,6 +57,8 @@ Original Left | Reconstruction Middle Left | Completion Middle Right | New Image
 ### Training Second Stage
 
 ```python train_transformer_vqgan.py```
+
+
 
 
 ## Citation
